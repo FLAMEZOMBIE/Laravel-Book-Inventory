@@ -12,7 +12,7 @@
             <div class="pull-right">
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                     @csrf
-                    <button type="submit" class="btn btn-default btn-flat" style="margin-top: 25%">Logout</button>
+                    <button type="submit" class="btn btn-default btn-flat" style="margin-top: 25%; border-radius: 10px; opacity: 60%">Logout</button>
                 </form>
             </div>
         </div>
